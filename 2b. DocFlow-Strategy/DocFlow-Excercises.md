@@ -1,8 +1,6 @@
-x# Wymagania
-System służy do zarządzania obiegiem dokumentów, które wspierają system jakości (np. ISO, QEP) w przedsiębiorstwie. 
-System powinien byś otwarty na rozbudowę w kierunku wspierania innych systemów jakości.
-Podstawowym artefaktem w systemie jest Dokument, który zawiera treść mającą na calu pomóc pracownikom 
-pracować nad zwiększaniem jakości produkcji.
+# Wymagania
+System służy do zarządzania obiegiem dokumentów, które wspierają system jakości (np. ISO) w przedsiębiorstwie. System powinien byś otwarty na rozbudowę w kierunku wspierania innych systemów jakości.
+Podstawowym artefaktem w systemie jest Dokument, który zawiera treść mającą na calu pomóc pracownikom pracować nad zwiększaniem jakości produkcji.
 
 Są różne rodzaje dokumentów: Księga jakości, Księga procedur, Instrukcje,..
 Generalny przepływ dokumentu wygląda tak:
@@ -35,11 +33,10 @@ Stworzyć klasę globalnego rejestru błędów.
 # Zadanie: Strategy
 Stworzyć encję reprezentującą Dokument.
 Wymagania:
--	Dokument podczas tworzenia ma automatycznie generowany numer – zależnie od ustawień systemowych 
-  (pobieranych z pliku konfiguracyjnego aplikacji)- System może działać w trybie obsługi dokumentów ISO, QEP, itp.
+-	Dokument podczas tworzenia ma automatycznie generowany numer – zależnie od ustawień systemowych (pobieranych z pliku konfiguracyjnego aplikacji)- System może działać w trybie obsługi dokumentów ISO, QEP, itp.
 -	Dokument podczas publikowania ma obliczany koszt wydruku jednej sztuki.
 -	Wydruk czarno-biały, wydruk kolorowy. 
--	typ wydruku pobierany z pliku konfiguracyjnego aplikacji
+-	typ wydruku pobierana z pliku konfiguracyjnego aplikacji
 
 Przetestować:
 -	Tworzenie dokumentu
